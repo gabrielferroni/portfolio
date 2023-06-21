@@ -20,7 +20,8 @@ html, body {
 
     .flex {
         width: 100%;
-   
+        position: fixed;
+        z-index: 9999;
    
             #burguer {  
                 display: block;
@@ -513,7 +514,15 @@ html, body {
                                 background-color: config.$color-green;
                             }
                         }
+
                     }
+                }
+                #my-form-status { 
+                    @include config.font-paragraf;
+                    margin-top: 20px;
+                    width: 140px;
+                    height: 40px;
+                    color: config.$color-white;
                 }
             }
         }

@@ -19,16 +19,16 @@
     
     <div class="webview">
         
-        <div class="flex">
+        <div class="flex" id="inicio">
             <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">Menu</span>
                 <menu id="navbar" class="navbar">
                      <ul>
     
-                        <li><a  href="#">Incio</a></li>
-                        <li><a  href="#">Sobre</a></li>
-                        <li><a  href="#">Serviços</a></li>
-                        <li><a  href="#">Portfólio</a></li>
-                        <li><a  href="#">Contado</a></li>
+                        <li><a  href="#inicio">Incio</a></li>
+                        <li><a  href="#sobre">Sobre</a></li>
+                        <li><a  href="#servicos">Serviços</a></li>
+                        <li><a  href="#portfolio">Portfólio</a></li>
+                        <li><a  href="#contato">Contato</a></li>
     
                     </ul>
             </menu>
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="container">
                 <div class="title">
                     <h2>Sobre</h2>
@@ -114,7 +114,7 @@
             </div>
         </section>
 
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <div class="container">
                 <div class="s-title">
                     <h2>Serviços</h2>
@@ -197,7 +197,7 @@
             </div>
         </section>
 
-        <section class="portfolios">
+        <section class="portfolios" id="portfolio">
             <div class="container">
                 <div class="p-title">
                     <h2>Portfólios</h2>
@@ -253,14 +253,14 @@
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="container">
                 <div class="title">
                     <h2>Contato</h2>
                 </div>
 
                 <div class="formulario">
-                    <form id="formulario" action="https://formspree.io/f/myybpwkp" method="POST">
+                    <form id="formulario" action="https://formspree.io/f/xjvdnqra" method="POST">
                         <div class="form-group">
                             <div class="controls">
                                 <label for="nome">Nome:</label>
@@ -293,7 +293,7 @@
                         </div>
 
                         <div class="form-group m-auto">
-                            <button class="btn-form-send" id="my-form-button">Enviar</button>
+                            <button type="submit" class="btn-form-send" id="my-form-button">Enviar</button>
                         </div>
 
                         <p id="my-form-status"></p>
